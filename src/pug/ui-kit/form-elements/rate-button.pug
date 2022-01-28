@@ -1,0 +1,17 @@
+.rate-button
+    +text({main: 'rate-button__text', title: 'rate button'})
+    fieldset.stars
+    .rating_stars
+      input(class= 'rating_star' type='radio', value='1', name= '1star')
+      input(class= 'rating_star' type='radio', value='2', name= '2star')
+      input(class= 'rating_star' type='radio', value='3', name= '3star')
+      input(class= 'rating_star' type='radio', value='4', name= '4star', checked)
+      input(class= 'rating_star' type='radio', value='5', name= '5star')
+    .star-5-checked
+      fieldset.stars
+      .rating_stars
+        input(class= 'rating_star' type='radio', value='1', name= '1star')
+        input(class= 'rating_star' type='radio', value='2', name= '2star')
+        input(class= 'rating_star' type='radio', value='3', name= '3star')
+        input(class= 'rating_star' type='radio', value='4', name= '4star')
+        input(class= 'rating_star' type='radio', value='5', name= '5star', checked)

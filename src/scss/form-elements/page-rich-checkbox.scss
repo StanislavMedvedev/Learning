@@ -1,0 +1,69 @@
+.rich-checkbox-buttons-wrapper {
+  margin-top: 100px;
+  margin-left: 587px;
+}
+
+.rich-checkbox-buttons {
+  font-family: $font-Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  //width: 266px;
+  //height: 145px;
+  border: 1px solid red;
+}
+
+.rich-checkbox-buttons__base-form {
+  width: 266px;
+  height: 145px;
+}
+
+.rich-checkbox-buttons__text {
+  text-transform: uppercase;
+  
+  color: #1F2041;
+}
+
+.rich-checkbox-buttons__group {
+  width: 210px;
+  height: 20px;
+}
+
+.rich-checkbox-buttons__group-input {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  margin-top: 16px;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 4px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+
+  &--moved-bottom {
+    margin-top: 42px;
+  }
+}
+
+.rich-checkbox-buttons__group-text {
+  display: inline-block;
+  //margin: -38px 0px 0px 40px;
+  width: 200px;
+  height: 18px;
+  margin-top: -16px;
+  margin-left: 30px;
+  font-family: $font-Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(31, 32, 65, 0.75);
+
+  &--modded {
+    margin-top: 20px;
+  }
+}

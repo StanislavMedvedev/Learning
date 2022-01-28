@@ -1,0 +1,4 @@
+mixin list(data)
+  ul(class = data.main)
+    each item in data.items
+      li(class = item.class)= item.title

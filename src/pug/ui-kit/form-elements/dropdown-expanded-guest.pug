@@ -1,0 +1,32 @@
+.dropdown-expanded-guest-wrapper
+  .dropdown-expanded-guest
+    .dropdown-expanded-guest__base-form
+      span.dropdown-expanded-guest__header dropdown
+      input(class= 'dropdown-expanded-guest__input', type= 'text', placeholder= 'Сколько гостей')
+      .dropdown-expanded-guest__icon
+      .dropdown-expanded-guest__rectangle
+        .row-group
+          span.dropdown-expanded-guest__text взрослые 
+          .guest-group.dropdown-expanded-guest__group
+            .guest-group__circle.guest-group__circle--disabled
+              span.guest-group__text.guest-group__text--disabled -
+            span.guest-group__text-number 0
+            .guest-group__circle.guest-group__circle--moved-left
+              span.guest-group__text +
+        .row-group
+          span.dropdown-expanded-guest__text дети 
+          .guest-group.dropdown-expanded-guest__group
+            .guest-group__circle.guest-group__circle--disabled
+              span.guest-group__text.guest-group__text--disabled -
+            span.guest-group__text-number 0
+            .guest-group__circle.guest-group__circle--moved-left
+              span.guest-group__text +
+        .row-group
+          span.dropdown-expanded-guest__text младенцы
+          .guest-group.dropdown-expanded-guest__group
+            .guest-group__circle.guest-group__circle--disabled
+              span.guest-group__text.guest-group__text--disabled -
+            span.guest-group__text-number 0
+            .guest-group__circle.guest-group__circle--moved-left
+              span.guest-group__text +
+        a.dropdown-expanded-guest__button применить

@@ -1,0 +1,86 @@
+.toggle-button__base-form {
+  display: flex;
+  width: 16.25rem;
+  height: 5.5625rem;
+  margin-top: -2.5rem;
+}
+
+.toggle-button__header {
+  display: block;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+
+.toggle-container {
+  position: relative;
+  margin-left: -0.3125rem;
+}
+
+.toggle-button {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+}
+ 
+.toggle-button__input {
+  position: relative;
+  width: 3rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  &:before {
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    width: 2.5rem;
+    height: 1.25rem;
+    background: #fff;
+    border-radius: 0.625rem;
+    border: 0.0625rem solid rgba(31, 32, 65, 0.25);
+  }
+
+  &:checked:before {
+    background: #fff;
+    border: 0.0625rem solid #BC9CFF;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0.25rem;
+    left: 0.25rem;
+    width: 0.75rem;
+    height: 0.75rem;
+    background: rgba(31, 32, 65, 0.25);
+    border-radius: 1.5625rem;
+    transition: .3s;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+
+  &:checked:after {
+    left: 1.5rem;
+    background-color: #BC9CFF;
+  }
+}
+
+.toggle-button__text {
+  display: block;
+  margin-top: -0.5rem;
+  margin-left: 3.25rem;
+  font-size: $font-size-14;
+  line-height: $line-height-medium;
+  color: $color-dark75;
+  text-transform: none;
+  cursor: default;
+}
+
+.toggle-button__input:checked ~ .toggle-button__text {
+  color: $color-purple;
+}

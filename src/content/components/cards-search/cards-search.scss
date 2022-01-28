@@ -1,0 +1,28 @@
+.search-wrapper {
+  margin-top: 4.563rem;//73px
+  margin-left: 9.375rem;//150px
+}
+
+.search {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  font-family: $font-Quicksand;
+  font-style: normal;
+  font-weight: bold;
+
+  &__base-form {
+    width: $base-form-width;//380px
+    height: $base-form-height;//374px
+  }
+}
+
+
+.textfield-mix-wrapper {
+  margin-left: 1.875rem;//30px
+}
+
+.button-search-wrapper {
+  margin-top: 1.75rem;//28px
+  margin-left: 1.875rem;//30px
+}

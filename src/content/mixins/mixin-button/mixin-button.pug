@@ -1,0 +1,11 @@
+mixin button({mods = '', title, iconClass} = {})
+  - 
+    let modList = mods.split(',')
+    let allMods = ''
+    
+    for (let i=0; i < modList.length; i++) {
+      allMods = allMods + ' button--' + modList[i].trim()
+    }
+    
+  button.button(class= allMods, type="button")= title
+  div(class= iconClass)

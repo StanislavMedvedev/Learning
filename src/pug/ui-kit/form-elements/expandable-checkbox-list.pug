@@ -1,0 +1,15 @@
+.expandable-checkbox-list
+  .expandable-checkbox-list__base-form
+    span.expandable-checkbox-list__text expandable checkbox list
+    .expandable-checkbox-list__icon
+.expandable-checkbox-list
+  .expandable-checkbox-list__base-form.expandable-checkbox-list__base-form--large
+    span.expandable-checkbox-list__text expandable checkbox list
+    .expandable-checkbox-list__icon.expandable-checkbox-list__icon--expanded.expandable-checkbox-list__icon--moved-bottom
+    .expandable-checkbox-list__checkbox-form.checkbox-form
+      +checkboxForm({value: 'breakfast', name: 'breakfast', text: 'Завтрак'})
+      +checkboxForm({value: 'table', name: 'table', text: 'Письменный стол', checked: 'checked'})
+      +checkboxForm({value: 'chair', name: 'chair', text: 'Стул для кормления', checked: 'checked'})
+      +checkboxForm({value: 'bed', name: 'bed', text: 'Кроватка', checked: 'checked'})
+      +checkboxForm({value: 'tv', name: 'tv', text: 'Телевизор'})
+      +checkboxForm({value: 'shampoo', name: 'shampoo', text: 'Шампунь'})

@@ -1,0 +1,40 @@
+.login-wrapper {
+  margin-top: -32.188rem;//-515px
+  margin-left: 35rem;//560px
+}
+
+.login {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  font-family: $font-Quicksand;
+  font-style: normal;
+  font-weight: bold;
+
+  &__base-form {
+    width: $login-base-width;//380px
+    height: $login-base-height;//358px
+  }
+
+  &__text {
+    padding-top: 2rem;//32px
+    padding-left: 1.875rem;//30px
+    font-size: $font-size-14;
+    line-height: $line-height-18;
+    color: $color-dark100;
+  }
+}
+
+.textfield-login-wrapper {
+  margin-left: 1.875rem;//30px
+}
+
+.button-accept-wrapper {
+  margin-top: 1.875rem;//30px
+  margin-left: 1.875rem;//30px
+}
+
+.button-create-wrapper {
+  margin-top: -1.25rem;//-20px
+  margin-left: 16.3125rem;//261px
+}

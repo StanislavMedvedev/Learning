@@ -1,0 +1,25 @@
+//@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+//@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import "../../assets/variables-fonts.scss";
+@import "../../assets/colors.scss";
+@import "./variables/variables-cards.scss";
+@import "./materialIcon-cards.scss";
+@import "./cards-extended-style.scss";
+@import "../../content/blocks/logo/main-logo.scss";
+@import "../../content/mixins/mixin-input/mixin-input.scss";
+@import "../../content/mixins/mixin-button/mixin-button.scss";
+@import "../../content/mixins/mixin-textfield/mixin-textfield.scss";
+@import "../../content/components/cards-search/cards-search.scss";
+@import "../../content/components/cards-number888/cards-number888.scss";
+@import "../../content/components/cards-registration/cards-registration.scss";
+@import "../../content/components/cards-login/cards-login.scss";
+@import "../../content/components/cards-n888/cards-n888.scss";
+@import "../../content/components/cards-n840/cards-n840.scss";
+@import "../../content/components/cards-calendar/cards-calendar.scss";
+@import "../../content/blocks/star-rating/star-rating.scss";
+
+body {
+  background: #E5E5E5;
+  width: 1920px;
+  height: 1080px;
+}

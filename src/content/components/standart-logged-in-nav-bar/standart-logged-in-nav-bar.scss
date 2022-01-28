@@ -1,0 +1,33 @@
+.standart-logged-in-nav-bar-wrapper {
+  margin: 2.5rem 0 0 -1.875rem;//40px 0 0 -30px
+}
+  
+.standart-logged-in-nav-bar {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  width: 90rem;//1440px
+  height: 4.375rem;//70px
+}
+  
+.b-menu-m {
+  display: flex;
+  align-items: center;
+  padding-left: 25rem; //400px<-580px
+}
+  
+.standart-logged-in-nav-bar__rectangle {
+  width: 0.0625rem;//1px
+  height: 1.875rem;//30px
+  @extend .dark10;
+}
+  
+.standart-logged-in-nav-bar__user-name {
+  width: 7.125rem;//114px
+  height: 1.125rem;//18px
+  margin: 0.125rem 0 0 1.875rem;//2px 0 0 30px
+  cursor: default;
+  @extend .main-style;
+  @extend .font14-17;
+  @extend .dark50;
+}

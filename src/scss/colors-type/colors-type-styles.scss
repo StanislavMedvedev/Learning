@@ -1,0 +1,14 @@
+@import "src/content/blocks/logo/main-logo.scss";
+@import "src/scss/colors-type/colors-type-extended-files.scss";
+@import "src/assets/colors.scss";
+@import "src/assets/variables-fonts.scss";
+@import "src/scss/colors-type/variables/variables-colorstype-rectangles.scss";
+@import "src/scss/colors-type/variables/variables-colorstype-text.scss";
+@import "src/content/blocks/rectangle/rectangle.scss";
+@import "src/content/blocks/text/text.scss";
+
+body {
+  background: #E5E5E5;
+  width: 1920px;
+  height: 1080px;
+}

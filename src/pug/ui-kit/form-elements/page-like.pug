@@ -1,0 +1,14 @@
+.like-button-wrapper
+  .like-button
+    .like-button__base-form
+      +text({main: 'like-button__text', title: 'like button'})
+      .like-button-unchecked
+        input(type='checkbox', class='like-button__rectangle')
+        .like-button__heart
+        .like-button__count_uncolored 2
+        .like-button__count_colored 3
+      .like-button-checked
+        input(type='checkbox', class='like-button__rectangle', checked)
+        .like-button__heart
+        .like-button__count_uncolored 11
+        .like-button__count_colored 12

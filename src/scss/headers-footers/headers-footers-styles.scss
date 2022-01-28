@@ -1,0 +1,14 @@
+@import "src/content/mixins/mixin-button/mixin-button.scss";
+@import "./extended-files.scss";
+@import "./variables/variables-headers-footers-page.scss";
+@import "src/content/blocks/logo/main-logo.scss";
+@import "src/content/components/standart-nav-bar/standart-nav-bar.scss";
+@import "src/content/components/standart-logged-in-nav-bar/standart-logged-in-nav-bar.scss";
+@import "src/content/components/footer-widgets-copywrite-bar/footer-widgets-copywrite-bar.scss";
+@import "src/content/components/footer-creative/footer-creative.scss";
+
+.page {
+  background: #e5e5e5;
+  font-size: 1rem;//16px
+  max-width: 90rem;//1440px
+}

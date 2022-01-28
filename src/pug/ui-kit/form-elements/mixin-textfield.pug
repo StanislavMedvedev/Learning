@@ -1,0 +1,51 @@
+mixin textfield({textfieldMod = '', textMod = '', inputMod = '', iconMod = '', leftText, rightText, placeholder, iconModsClass, inputId, id} = {})
+  -
+    let textfieldModList = textfieldMod.split(',')
+    let textfieldMods = 'textfield'
+    let textModList = textMod.split(',')
+    let textMods = 'textfield__text'
+    let inputModList = inputMod.split(',')
+    let inputMods = 'textfield__input'
+    let iconModList = iconMod.split(',')
+    let iconMods = ''
+    //-let iconModsClass = ''
+
+    for (let i=0; i < textfieldModList.length; i++) {
+      if (textfieldMod) {
+        textfieldMods = textfieldMods + ' textfield--' + textfieldModList[i].trim()
+      }
+      else {
+        break
+      }
+    }
+
+    for (let j=0; j < textModList.length; j++) {
+      if (textMod) {
+        textMods = textMods + ' textfield__text--' + textModList[j].trim()
+      }
+      else {
+        break
+      }
+    }
+
+    for (let k=0; k < inputModList.length; k++) {
+      inputMods = inputMods + ' textfield__input--' + inputModList[k].trim()
+    }
+
+    iconMods += iconModsClass ? "textfield__icon" : ""
+    iconMods += iconMod ? "textfield__icon" : ""
+
+    for (let l=0; l < iconModList.length; l++) {
+      if (iconMod) {
+        iconMods = iconMods + ' textfield__icon--' + iconModList[l].trim()
+      }
+      else {
+        break
+      }
+    }
+
+  div(class= textfieldMods)
+    span(class= 'textfield__text')= leftText
+    span(class= textMods)= rightText
+    input(class= inputMods, type= "text", placeholder= placeholder, id= inputId)
+    div(class= iconMods, id= id)

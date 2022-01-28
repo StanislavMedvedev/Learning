@@ -1,0 +1,20 @@
+mixin quantity({data, tag, className, quantity}={})
+    div(class = data.main)
+        each item in data.items
+           item.tag(class = item.class)= item.title
+
+  //-
+    let i= parseInt(quantity, 10) - 1
+
+        for (let j=0; j <= i; j++) {
+            if (quantity) {
+                element(className= className)
+            }
+            else {
+                break
+            }
+        }
+
+//-element(className= className)
+
+//-+quantity({element: 'div', className: 'div__quantity', quantity: '4'})

@@ -1,0 +1,174 @@
+.footer-wedgets-copywrite-bar-wrapper {
+  margin: 2.5rem 0 0 -1.875rem;//40px 0 0 -30px
+}
+  
+.footer-wedgets-copywrite-bar {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  width: 90rem;//1440px
+  height: 23.25rem;//372px
+}
+  
+.footer-wedgets-copywrite-bar__logo {
+  margin-top: -8.25rem;//(-232px+100px)=-132px
+}
+  
+.footer-wedgets-copywrite-bar__text-under-logo {
+  margin: 3.75rem 0 0 -6.75rem;//60px 0 0 108px
+  width: 13.75rem;//220px
+  height: 6rem;//96px
+  @extend .main-style;
+  @extend .font14-24;
+  @extend .dark75;
+}
+  
+.footer-wedgets-copywrite-bar__wrapper-navigation {
+  width: 5.0625rem;//81px
+  height: 10.5rem;//168px
+  margin-left: -1.5rem;//-24px
+}
+  
+.footer-wedgets-copywrite-bar__menu {
+  display: flex;
+  flex-direction: column;
+}
+  
+.list__item-m {
+  width: 5.0625rem;//81px
+  margin-bottom: 1.25rem;//20px
+  list-style: none;
+  cursor: default;
+  @extend .main-style;
+  @extend .font14-17;
+  @extend .dark50;
+    
+  &:hover {
+    color: #BC9CFF;
+  }
+}
+  
+.list__item-m--uppercased-text {
+  font-size: 0.75rem;//12px
+  line-height: 0.9375rem;//15px
+  text-transform: uppercase;
+  color: #1F2041;
+}
+  
+.footer-wedgets-copywrite-bar__wrapper_about-us {
+  margin: 2.75rem 0 0 7rem;//44px 0 0 112px
+}
+  
+.footer-wedgets-copywrite-bar__wrapper_Support {
+  margin: 0.5rem 0 0 3.625rem;//8px 0 0 58px
+}
+  
+.footer-wedgets-copywrite-bar__text-subscribe {
+  margin: -7.5625rem 0 0 6rem;//-121px 0 0 96px
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.75rem;//12px
+  line-height: 0.9375rem;//15px
+  text-transform: uppercase;
+  color: #1F2041;
+}
+  
+.footer-wedgets-copywrite-bar__text-receive {
+  margin: -2.375rem 0 0 -12.875rem;//-38px 0 0 -206px
+  width: 12.25rem;//196px
+  height: 3rem;//48px
+  @extend .main-style;
+  @extend .font14-24;
+  @extend .dark75;
+}
+  
+.footer-wedgets-copywrite-bar-input-wrapper {
+  margin: 84px 0 0 -12.25rem;//84px 0 0 -196px
+}
+  
+.input-with-icon .input-with-icon__input {
+  padding-right: 2.5rem;//40px
+}
+  
+.input-with-icon {
+  position: relative;
+}
+  
+.input-with-icon__input {
+  width: 16.25rem;//260px
+  height: 2.75rem;//44px
+  background: #fff;
+  border: 0.0625rem solid rgba(31, 32, 65, 0.25);//1px
+  box-sizing: border-box;
+  border-radius: 0.25rem;//4px
+  padding-left: 0.9375rem;//15px
+  @extend .main-style;
+  @extend .font14-24;
+  @extend .dark25;
+    
+  &::placeholder {
+    @extend .dark25;
+  }
+}
+  
+.input-with-icon__icon {
+  position: absolute;
+  width: $width-height20;//20px
+  height: $width-height20;//20px
+  cursor: pointer;
+  outline: none;
+  margin: -2rem 0 0 14.25rem;//-32px 0 0 228px
+  @extend .icon-arrow;
+}
+  
+.footer-wedgets-copywrite-bar__wrapper {
+  margin-top: 0.0625rem;//1px
+}
+  
+.copywrite-bar {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  width: 90rem;//1440px
+  height: 4.375rem;//70px
+}
+  
+.copywrite-bar__text {
+  margin-left: 8.75rem;//140px
+  margin-right: 43.75rem;//700px<-937px
+}
+  
+.text-mod {
+  @extend .main-style;
+  @extend .font14-17;
+  @extend .dark75;
+}
+  
+.social-buttons-bar {
+  display: flex;
+  align-items: center;
+}
+  
+.social-buttons-bar__icon {
+  margin-left: 1.25rem;//20px
+  width: $width24;//24px
+  height: $height24;//24px
+  cursor: pointer;
+    
+  &:hover {
+    opacity: 0.5;
+  }
+}
+  
+.social-buttons-bar__icon--twitter {
+  @extend .icon-twitter;
+}
+  
+.social-buttons-bar__icon--facebook {
+  @extend .icon-facebook;
+}
+  
+.social-buttons-bar__icon--instagram {
+  @extend .icon-instagram;
+}

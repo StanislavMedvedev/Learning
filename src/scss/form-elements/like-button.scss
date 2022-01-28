@@ -1,0 +1,115 @@
+.like-button {
+  width: 90px;
+  height: 51px;
+  margin-top: -70px;
+  //margin: -260px 0px 0px 587px;
+  position: relative;
+}
+
+.like-button__text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+
+.like-button__rectangle {
+  position: relative;
+  display: block;
+  margin: 12px 0px 0px 0px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.like-button__rectangle:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+}
+
+.like-button__rectangle:checked:before {
+  background: #fff;
+  border: solid 1px transparent;
+  border-radius: 10px;
+  box-shadow: 2px 1000px 1px #fff inset;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), $color-primary-gradient;
+  background-clip: content-box, border-box;
+  background-origin: border-box;
+  color: $color-primary;
+  border-image-slice: 1;
+}
+
+.like-button__rectangle:after {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 9px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24' viewBox='0 0 24 24' width='24'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z' fill='rgba(31, 32, 65, 0.25)'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: 40% 50%;
+  background-size: 1.2em auto;
+}
+
+.like-button__rectangle:checked:after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24' viewBox='0 0 24 24' width='24'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z' fill='rgb(188,156,255)'/%3E%3C/svg%3E");
+}
+
+.like-button__count_uncolored {
+  display: block;
+  position: absolute;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.25);
+  margin: -9px 0px 0px 24px;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.like-button__count_colored {
+  display: none;
+}
+
+.like-button__rectangle:checked ~ .like-button__count_uncolored {
+  display: none;
+}
+
+.like-button__rectangle:checked ~ .like-button__count_colored {
+  display: block;
+  color: #BC9CFF;
+  position: absolute;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  margin: -9px 0px 0px 24px;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.content-unchecked {
+  margin: -25px 0px 0px 50px;
+}

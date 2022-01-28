@@ -1,0 +1,11 @@
+//out: date-dropdown.html, pretty: true
+
+include mixin-input.pug
+include mixin-text.pug
+
+.date-Dropdown
+    +text({main: 'date-Dropdown__text', title: 'date Dropdown'})
+    +input({class: 'date-Dropdown__input', type: 'text', value: 'ДД.ММ.ГГГГ'})
+.date-Dropdown1
+    +text({main: 'date-Dropdown1__text', title: 'date Dropdown'})
+    +input({class: 'date-Dropdown1__input', type: 'text', value: '19.08.2019'})

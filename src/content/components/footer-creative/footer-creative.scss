@@ -1,0 +1,55 @@
+.footer-creative-wrapper {
+  margin: 2.5rem 0 0 -1.875rem;//40px 0 0 -30px
+}
+  
+.footer-creative {
+  width: 90rem;//1440px
+  height: 22.9375rem;//367px
+  background: #fff;
+}
+  
+.footer-creative__logo {
+  margin-left: 42.75rem;//684px
+}
+  
+.logo {
+  display: flex;
+  align-items: center;
+}
+  
+.logo-m {
+  margin-top: 6.25rem;//100px
+}
+  
+.logo__icon {
+  margin-right: 0.75rem;//12px
+  width: 2.5rem;//40px
+  height: 2.5rem;//40px
+}
+  
+.logo__icon--colored {
+  @extend .color-logo;
+}
+  
+.logo__text {
+  width: 3.375rem;//54px
+  height: 0.8125rem;//13px
+}
+  
+.logo__text--toxin {
+  @extend .toxin-logo-text;
+}
+  
+.footer-creative__text {
+  width: 30rem;//480px
+  height: 3rem;//48px
+  margin: 1.25rem 0 0 31.25rem;//20px 0 0 500px
+  text-align: center;
+  @extend .main-style;
+  @extend .font14-24;
+  @extend .dark75;
+}
+  
+.footer-creative__social-buttons {
+  margin: 1.5625rem 0 0 41.5rem;//25px 0 0 664
+}

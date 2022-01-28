@@ -1,0 +1,653 @@
+body {
+  background: #E5E5E5;
+}
+
+.logo-svg {
+  width: 3rem;
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 30px;
+  top: 30px;
+}
+
+.rectangle2_3 {
+  position: absolute;
+  width: 380px;
+  height: 374px;
+  left: 140px;
+  top: 150px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.text2_3 {
+  position: absolute;
+  width: 320px;
+  height: 60px;
+  left: 170px;
+  top: 190px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #1F2041;
+}
+
+.arrive2_3 {
+  position: absolute;
+  width: 150px;
+  height: 65px;
+  left: 170px;
+  top: 270px;
+}
+
+.icon2_3_1 {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 276px;
+  top: 291px;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.5);
+}
+
+.dropdown2_3_1 {
+  position: absolute;
+  width: 150px;
+  height: 64.44px;
+  left: 170px;
+  top: 270px;
+}
+
+.text2_3_1 {
+  position: absolute;
+  width: 103px;
+  height: 24px;
+  left: 185px;
+  top: 302px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.text2_3_2 {
+  position: absolute;
+  width: 83px;
+  height: 15px;
+  left: 170px;
+  top: 270px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+
+.rectangle2_3_1 {
+  position: absolute;
+  width: 150px;
+  height: 44px;
+  left: 170px;
+  top: 290.44px;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.depart2_3 {
+  position: absolute;
+  width: 150px;
+  height: 65px;
+  left: 340px;
+  top: 270px;
+}
+
+.icon2_3_2 {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 446px;
+  top: 291px;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.5);
+}
+
+.dropdown2_3_2 {
+  position: absolute;
+  width: 150px;
+  height: 64.44px;
+  left: 340px;
+  top: 270px;
+}
+
+.text2_3_3 {
+  position: absolute;
+  width: 103px;
+  height: 24px;
+  left: 355px;
+  top: 302px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.text2_3_4 {
+  position: absolute;
+  width: 83px;
+  height: 15px;
+  left: 340px;
+  top: 270px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+
+.rectangle2_3_2 {
+  position: absolute;
+  width: 150px;
+  height: 44px;
+  left: 340px;
+  top: 290.44px;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.guest2_3 {
+  position: absolute;
+  width: 320px;
+  height: 64.56px;
+  left: 170px;
+  top: 355px;
+}
+
+.textfield2_3 {
+  position: absolute;
+  width: 320px;
+  height: 44px;
+  left: 170px;
+  top: 450px;
+}
+
+.rectangle2 {
+  position: absolute;
+  width: 380px;
+  height: 511px;
+  left: 560px;
+  top: 150px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.text2_1 {
+  position: absolute;
+  width: 64px;
+  height: 30px;
+  left: 590px;
+  top: 190px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1F2041;
+}
+
+.text2_2 {
+  position: absolute;
+  width: 41px;
+  height: 15px;
+  left: 659px;
+  top: 202px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #BC9CFF;
+}
+
+.text2_3 {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  left: 810px;
+  top: 200px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(31, 32, 65, 0.5);
+}
+
+.arrive2 {
+  position: absolute;
+  width: 150px;
+  height: 65px;
+  left: 590px;
+  top: 240px;
+}
+
+.depart2 {
+  position: absolute;
+  width: 150px;
+  height: 65px;
+  left: 760px;
+  top: 240px;
+}
+
+.guest2 {
+  position: absolute;
+  width: 320px;
+  height: 64px;
+  left: 590px;
+  top: 324.44px;
+}
+
+.text2_4 {
+  position: absolute;
+  width: 116px;
+  height: 24px;
+  left: 591px;
+  top: 409px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.text2_5 {
+  position: absolute;
+  width: 57px;
+  height: 24px;
+  left: 853px;
+  top: 409px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.text2_6 {
+  position: absolute;
+  width: 214px;
+  height: 24px;
+  left: 591px;
+  top: 443px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.icon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 810px;
+  top: 441px;
+}
+
+.text2_7 {
+  position: absolute;
+  width: 20px;
+  height: 24px;
+  left: 890px;
+  top: 443px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: right;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.text2_8 {
+  position: absolute;
+  width: 214px;
+  height: 36px;
+  left: 591px;
+  top: 477px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.icon2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 810px;
+  top: 477px;
+}
+
+.text2_9 {
+  position: absolute;
+  width: 37px;
+  height: 24px;
+  left: 873px;
+  top: 477px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: right;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.text2_10 {
+  position: absolute;
+  width: 59px;
+  height: 24px;
+  left: 591px;
+  top: 543px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+  color: #1F2041;
+}
+
+.text2_11 {
+  position: absolute;
+  width: 68px;
+  height: 24px;
+  left: 842px;
+  top: 543px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+  color: #1F2041;
+}
+
+.textfield2 {
+  position: absolute;
+  width: 320px;
+  height: 44px;
+  left: 590px;
+  top: 587px;
+}
+
+.calendar {
+  position: absolute;
+  width: 320px;
+  height: 369px;
+  left: 980px;
+  top: 150px;
+}
+
+.link_clear {
+  position: absolute;
+  width: 72px;
+  height: 15px;
+  left: 1000px;
+  top: 484px;
+}
+
+.link_apply {
+  position: absolute;
+  width: 84px;
+  height: 15px;
+  left: 1196px;
+  top: 484px;
+}
+
+.text2_5_1 {
+  position: absolute;
+  width: 320px;
+  height: 30px;
+  left: 170px;
+  top: 604px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #1F2041;
+}
+
+.datepick2_5_1 {
+  position: absolute;
+  width: 320px;
+  height: 44px;
+  left: 170px;
+  top: 654px;
+}
+
+.datepick2_5_2 {
+  position: absolute;
+  width: 320px;
+  height: 44px;
+  left: 170px;
+  top: 708px;
+}
+
+.radiof_m2_5 {
+  position: absolute;
+  width: 220.74px;
+  height: 24.44px;
+  left: 170px;
+  top: 762px;
+}
+
+.datepick2_5_3 {
+  position: absolute;
+  width: 320px;
+  height: 64px;
+  left: 170px;
+  top: 806px;
+}
+
+.datepick2_5_4 {
+  position: absolute;
+  width: 320px;
+  height: 118px;
+  left: 170px;
+  top: 890px;
+}
+
+.datepick2_5_5 {
+  position: absolute;
+  width: 260px;
+  height: 24px;
+  left: 170px;
+  top: 1018px;
+}
+
+.button2_5 {
+  position: absolute;
+  width: 320px;
+  height: 44px;
+  left: 170px;
+  top: 1062px;
+}
+
+.login2_5 {
+  position: absolute;
+  width: 320px;
+  height: 44px;
+  left: 170px;
+  top: 1136px;
+}
+
+.rectangle2_6 {
+  position: absolute;
+  width: 380px;
+  height: 358px;
+  left: 560px;
+  top: 701px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.text2_6 {
+  position: absolute;
+  width: 320px;
+  height: 30px;
+  left: 590px;
+  top: 741px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #1F2041;
+}
+
+.datepick2_6_1 {
+  position: absolute;
+  width: 320px;
+  height: 44px;
+  left: 590px;
+  top: 791px;
+}
+
+.datepick2_6_2 {
+  position: absolute;
+  width: 320px;
+  height: 44px;
+  left: 590px;
+  top: 845px;
+}
+
+.button2_6 {
+  position: absolute;
+  width: 320px;
+  height: 44px;
+  left: 590px;
+  top: 909px;
+}
+
+.login2_6 {
+  position: absolute;
+  width: 320px;
+  height: 44px;
+  left: 590px;
+  top: 983px;
+}
+
+.rectangle5 {
+  position: absolute;
+  width: 270px;
+  height: 257px;
+  left: 980px;
+  top: 559.5px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+  border-radius: 4px;
+}
+
+.background5 {
+  position: absolute;
+  width: 270px;
+  height: 151.38px;
+  left: 980px;
+  top: 559px;
+}
+
+.dotts5 {
+  position: absolute;
+  width: 41.25px;
+  height: 7.49px;
+  left: 1193.75px;
+  top: 687.89px;
+}
+
+.text5 {
+  position: absolute;
+  width: 233px;
+  height: 67px;
+  left: 1000px;
+  top: 730.5px;
+}
+
+.slide_left5 {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 1024px;
+  top: 612.5px;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  transform: rotate(90deg);
+}
+
+.slide_right5 {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 1206px;
+  top: 656.5px;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  transform: rotate(-90deg);
+}

@@ -1,0 +1,12 @@
+.login-wrapper
+  .login
+    .login__base-form.base-form-style
+      .component__header Войти
+      .textfield-login-wrapper
+        +textfield({textfieldMod: 'standart', inputMod: 'dark, dropdown, default', placeholder: `${variables.mail}`})
+        +textfield({textfieldMod: 'standart, moved-top10', inputMod: 'dark, dropdown, default', placeholder: `${variables.password}`})
+      .button-accept-wrapper
+        +button({title: 'войти', iconClass: 'button__icon'})
+      .login__text.component__text Нет аккаунта на Toxin?
+      .button-create-wrapper
+        +button({title: 'создать', mods: 'border,content-size'})

@@ -1,0 +1,17 @@
+{
+  "dark100" : "Dark Shade 100% #1F2041",
+  "dark75" : "Dark Shade 75% #1F2041",
+  "dark50" : "Dark Shade 50% #1F2041",
+  "dark25" : "Dark Shade 25% #1F2041",
+  "dark5" : "Dark Shade 5% #1F2041",
+  "purple" : "Purple #BC9CFF",
+  "green" : "Green #6FCF97",
+  "tag1" : "H1",
+  "tag2" : "H2",
+  "tag3" : "H3",
+  "tag4" : "Body",
+  "text1" : "This one is the sub-section or widget title",
+  "text2" : "Next one is the item title inside widgets",
+  "text3" : "This is a label or CTA text",
+  "text4" : "This is the body text which is used for most of the design, like paragraphs, lists, etc."
+}

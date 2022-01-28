@@ -1,0 +1,23 @@
+@import "./assets/variables-fonts.scss";
+
+div {
+  font-family: 'Montserrat';
+  color: green;
+}
+
+a {
+  font-family: 'Open Sans';
+  color: red;
+}
+
+.image {
+  margin-left: 38px;
+  width: 250px;
+  height: 151px;
+  background-image: url(./content/img/n888.png);
+  background-size: cover;
+  -webkit-clip-path: inset(0 0 0 0 round 4px 4px 0 0); 
+  clip-path: inset(0 0 0 0 round 4px 4px 0 0); 
+  //border: 20px 20px 0 0;
+  //mask-clip: border-box;
+}

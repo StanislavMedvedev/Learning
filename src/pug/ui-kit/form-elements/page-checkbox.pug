@@ -1,0 +1,19 @@
+.checkbox-buttons-wrapper
+  .checkbox-buttons
+    .checkbox-buttons__base-form
+      .checkbox-buttons__text Checkbox Buttons
+        +checkboxForm({groupClass: 'checkbox-buttons__group', inputClass: 'checkbox-buttons__group-input', spanClass: 'checkbox-buttons__group-text', value: 'smoke', name: 'smoke', text: 'Можно курить'})
+        +checkboxForm({groupClass: 'checkbox-buttons__group', inputClass: 'checkbox-buttons__group-input', spanClass: 'checkbox-buttons__group-text', value: 'pet', name: 'pet', text: 'Можно с питомцами', checked: 'checked'})
+        +checkboxForm({groupClass: 'checkbox-buttons__group', inputClass: 'checkbox-buttons__group-input', spanClass: 'checkbox-buttons__group-text', value: 'guest', name: 'guest', text: 'Можно пригласить гостей (до 10 человек)', checked: 'checked'})
+        //-.checkbox-buttons__group
+          label
+            input(class= 'checkbox-buttons__group-input', type= 'checkbox', value= 'smoke', name= 'smoke')
+            span.checkbox-buttons__group-text Можно курить
+        //-.checkbox-buttons__group
+          label
+            input(class= 'checkbox-buttons__group-input', type= 'checkbox', value= 'pet', name= 'pet', checked)
+            span.checkbox-buttons__group-text Можно с питомцами
+        //-.checkbox-buttons__group
+          label
+            input(class= 'checkbox-buttons__group-input', type= 'checkbox', value= 'guest', name= 'guest', checked)
+            span.checkbox-buttons__group-text Можно пригласить гостей (до 10 человек)

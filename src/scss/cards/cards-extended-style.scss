@@ -1,0 +1,28 @@
+.base-form-style {
+  background: #fff;
+  border: $border;
+  box-sizing: border-box;
+  box-shadow: $box-shadow-standart;
+  border-radius: $border-radius;
+}
+
+.component__header {
+  color: $color-dark100;
+  font-size: $font-max;//24px
+  line-height: $line-height-max;//30px
+  padding-top: 2.5rem;//40px
+  padding-left: 1.875rem;//30px
+  cursor: default;
+}
+
+.component__text {
+  font-family: $font-Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  cursor: default;
+}
+
+.texts-style {
+  font-size: 14px;
+  line-height: 24px;
+}

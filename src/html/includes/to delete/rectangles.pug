@@ -1,0 +1,21 @@
+//out:00.html, pretty:true
+
+include variables.pug
+include mixin-colorstypes.pug
+  
+.rectangles
+  .rectangles__body
+    +div(class='rectangles rectangles__color-dark100')   
+    +div (`${dark100}`)(class='rectangles rectangles__text-dark100')
+    +div(class='rectangles rectangles__color-dark75')
+    +div (`${dark75}`)(class='rectangles rectangles__text-dark75')
+    +div(class='rectangles rectangles__color-dark50')
+    +div (`${dark50}`)(class='rectangles rectangles__text-dark50')
+    +div(class='rectangles rectangles__color-dark25')
+    +div (`${dark25}`)(class='rectangles rectangles__text-dark25')
+    +div(class='rectangles rectangles__color-dark5')
+    +div (`${dark5}`)(class='rectangles rectangles__text-dark5')
+    +div(class='rectangles rectangles__color-purple')
+    +div (`${purple}`)(class='rectangles rectangles__text-purple')
+    +div(class='rectangles rectangles__color-green')
+    +div (`${green}`)(class='rectangles rectangles__text-green')

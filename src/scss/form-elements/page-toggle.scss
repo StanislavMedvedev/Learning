@@ -1,0 +1,91 @@
+.toggle-button {
+  font-family: $font-Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.75rem;//12px
+  line-height: 0.9375rem;//15px
+
+  &-wrapper {
+    margin-left: 36.6875rem;//587px
+    margin-top: 1.625rem;//26px
+  }
+
+  &__base-form {
+    width: 16.25rem;//260px
+    height: 5.5625rem;//89px
+  }
+
+  &__header {
+    text-transform: uppercase;
+    color: $color-dark100;
+    cursor: default;
+  }
+
+  &__container {
+    position: relative;
+    margin-left: -0.3125rem;//-5px
+  }
+
+  &__group {
+    font-weight: normal;
+
+    &-input {
+      position: relative;
+      width: 3rem;//48px
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+    
+      &:before {
+        content: '';
+        position: absolute;
+        box-sizing: border-box;
+        width: 2.5rem;//40px
+        height: 1.25rem;//20px
+        background: #fff;
+        border-radius: 0.625rem;//10px
+        border: 0.0625rem solid $color-dark25;//1px
+      }
+    
+      &:checked:before {
+        background: #fff;
+        border: 0.0625rem solid $color-purple;//1px
+      }
+    
+      &:after {
+        content: '';
+        position: absolute;
+        top: 0.25rem;//4px
+        left: 0.25rem;//4px
+        width: 0.75rem;//12px
+        height: 0.75rem;//12px
+        background: $color-dark25;
+        border-radius: 1.5625rem;//25px
+        transition: .3s;
+        box-sizing: border-box;
+        cursor: pointer;
+      }
+    
+      &:checked:after {
+        left: 1.5rem;//24px
+        background-color: $color-purple;
+      }
+    }
+
+    &-text {
+      display: block;
+      margin-top: -0.5rem;//-8px
+      margin-left: 3.25rem;//52px
+      font-size: 0.875rem;//14px
+      line-height: 1.5rem;//24px
+      color: $color-dark75;
+      font-weight: normal;
+      text-transform: none;
+      cursor: default;
+    }
+
+    &-input:checked ~ &-text {
+      color: $color-purple;
+    }
+  }
+}

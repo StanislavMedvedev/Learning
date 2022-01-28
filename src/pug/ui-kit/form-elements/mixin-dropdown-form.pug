@@ -1,0 +1,30 @@
+mixin dropdownForm({circleMinusMod = '', circlePlusMod = '', titleText, circleNumber, id} = {})
+  - 
+    let circleMinusModList = circleMinusMod.split(',')
+    let circleMinusMods = 'group__circle'
+    let circlePlusModList = circlePlusMod.split(',')
+    let circlePlusMods = 'group__circle'
+    
+    for (let h=0; h < circleMinusModList.length; h++) {
+      if (circleMinusMod) {
+        circleMinusMods = circleMinusMods + ' group__circle--' + circleMinusModList[h].trim() } 
+      else {
+        break
+      }
+    }
+    //iconMods += iconMod ? "textfield__icon" : ""
+    for (let k=0; k < circlePlusModList.length; k++) {
+      if (circlePlusMod) {
+        circlePlusMods = circlePlusMods + ' group__circle--' + circlePlusModList[k].trim() } 
+      else {
+        break
+      }  
+    }
+  
+  div(class= 'dropdown-form__text')= titleText 
+  div(class= 'group dropdown-form__group', id= 'group') 
+    div(class= circleMinusMods, id= 'circle')
+      div(class= 'circle__text', id= 'minus')= '-'
+    div(class= 'group__text', id= 'number')= circleNumber
+    div(class= circlePlusMods)
+      div(class= 'circle__text', id= 'plus')= '+'

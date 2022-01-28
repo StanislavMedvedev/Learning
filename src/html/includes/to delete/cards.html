@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>lang="ru"
+
+    <head>
+        <meta charset="utf-8">
+        <title>Webpack Setup</title>
+    </head>
+
+    <body>
+        <div class="logo-svg"><svg viewbox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M23.9989 32.4712C23.2224 32.4712 22.5871 31.8359 22.5871 31.0594C22.5871 25.6241 18.14 21.177 12.7047 21.177C11.9283 21.177 11.293 20.5418 11.293 19.7653C11.293 18.9888 11.9283 18.3535 12.7047 18.3535C19.7283 18.3535 25.4106 24.0359 25.4106 31.0594C25.4106 31.8359 24.7753 32.4712 23.9989 32.4712Z" fill="#1F2041" fill-opacity="0.25"></path>
+                <path d="M36.7068 19.7653C36.7068 20.5418 36.0715 21.177 35.295 21.177C31.9421 21.177 28.9421 22.8712 27.1774 25.4476C26.7892 24.4594 26.3303 23.5418 25.7656 22.6947C28.095 20.0123 31.5186 18.3535 35.295 18.3535C36.0715 18.3535 36.7068 18.9888 36.7068 19.7653Z" fill="#1F2041" fill-opacity="0.25"></path>
+                <path d="M24 48C10.7647 48 0 37.2353 0 24C0 10.7647 10.7647 0 24 0C37.2353 0 48 10.7647 48 24C48 37.2353 37.2353 48 24 48ZM24 2.82353C12.3176 2.82353 2.82353 12.3176 2.82353 24C2.82353 35.6824 12.3176 45.1765 24 45.1765C35.6824 45.1765 45.1765 35.6824 45.1765 24C45.1765 12.3176 35.6824 2.82353 24 2.82353Z" fill="#1F2041" fill-opacity="0.25"></path>
+            </svg></div>
+        <div class="group2_3-search">
+            <div class="group rectangle"></div>
+            <div class="group text">Найдём номера под <br>ваши пожелания</div>
+            <div class="arrive">
+                <div class="icon1 icon1--arrow-arrive"></div>
+                <div class="dropdown dropdown-arrive">
+                    <div class="arrive dropdown--date-arrive">ДД.ММ.ГГГГ</div>
+                    <div class="arrive dropdown--text-arrive">прибытие</div>
+                    <div class="arrive dropdown--rectangle-arrive"></div>
+                </div>
+            </div>
+            <div class="depart">
+                <div class="icon2 icon2--arrow-depart"></div>
+                <div class="dropdown dropdown-depart">
+                    <div class="depart dropdown--date-depart">ДД.ММ.ГГГГ</div>
+                    <div class="depart dropdown--text-depart">выезд</div>
+                    <div class="depart dropdown--rectangle-depart"></div>
+                </div>
+            </div>
+            <div class="guest">
+                <div class="icon3 icon3--arrow-guest"></div>
+                <div class="dropdown dropdown-guest">
+                    <div class="guest dropdown--date-guest">сколько гостей</div>
+                    <div class="guest dropdown--text-guest">гости</div>
+                    <div class="guest dropdown--rectangle-guest"></div>
+                </div>
+            </div><button class="button  button--arrow" type="button">подобрать номер</button>
+        </div>
+        <div class="group2-number888">
+            <div class="group2 rectangle2"></div>
+            <div class="group2 text2_1">№ 888</div>
+            <div class="group2 text2_2">люкс</div>
+            <div class="group2 text2_3">9 990₽ в сутки</div>
+            <div class="arrive2">
+                <div class="icon4 icon4--arrow-arrive2"></div>
+                <div class="dropdown dropdown-arrive2">
+                    <div class="arrive2 dropdown--date-arrive2">19.08.2019</div>
+                    <div class="arrive2 dropdown--text-arrive2">прибытие</div>
+                    <div class="arrive2 dropdown--rectangle-arrive2"></div>
+                </div>
+            </div>
+            <div class="depart2">
+                <div class="icon5 icon5--arrow-depart2"></div>
+                <div class="dropdown dropdown-depart2">
+                    <div class="depart2 dropdown--date-depart2">23.08.2019</div>
+                    <div class="depart2 dropdown--text-depart2">выезд</div>
+                    <div class="depart2 dropdown--rectangle-depart2"></div>
+                </div>
+            </div>
+            <div class="guest2">
+                <div class="icon6 icon6--arrow-guest2"></div>
+                <div class="dropdown dropdown-guest2">
+                    <div class="guest2 dropdown--date-guest2">3 гостя</div>
+                    <div class="guest2 dropdown--text-guest2">гости</div>
+                    <div class="guest2 dropdown--rectangle-guest2"></div>
+                </div>
+            </div>
+            <div class="group2 text2_4">9 990₽ х 4 суток</div>
+            <div class="group2 text2_5">39 960₽</div>
+            <div class="group2 text2_6">Сбор за услуги: скидка 2 179₽</div>
+            <div class="group2 icon"></div>
+            <div class="group2 text2_7">0₽</div>
+            <div class="group2 text2_8">Сбор за дополнительные услуги</div>
+            <div class="group2 icon2"></div>
+            <div class="group2 text2_9">300₽</div>
+            <div class="group2 text2_10">Итого</div>
+            <div class="group2 rectangle2_1"></div>
+            <div class="group2 text2_11">38 081₽</div><button class="button  button--arrow" type="button">забронировать</button>
+        </div>
+        <div class="group-calendar">
+            <div class="group calendar">
+                <div class="rectangle"></div>
+                <div class="month_year">Август 2019</div>
+                <div class="arrow_back_wrapper">
+                    <div class="arrow_back"></div>
+                </div>
+                <div class="arrow_forward_wrapper">
+                    <div class="arrow_forward"></div>
+                </div>
+                <div class="days">
+                    <div class="calendar">
+                        <table>
+                            <tr>
+                                <th>Пн</th>
+                                <th>Вт</th>
+                                <th>Ср</th>
+                                <th>Чт</th>
+                                <th>Пт</th>
+                                <th>Сб</th>
+                                <th class="holiday">Вс</th>
+                            </tr>
+                            <tr>
+                                <td class="empty">29</td>
+                                <td class="empty">30</td>
+                                <td class="empty">31</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>7</td>
+                                <td class="today">8</td>
+                                <td>9</td>
+                                <td>10</td>
+                                <td>11</td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>13</td>
+                                <td>14</td>
+                                <td>15</td>
+                                <td>16</td>
+                                <td>17</td>
+                                <td>18</td>
+                            </tr>
+                            <tr>
+                                <td class="datepick">19</td>
+                                <td>20</td>
+                                <td>21</td>
+                                <td>22</td>
+                                <td class="datepick">23</td>
+                                <td>24</td>
+                                <td>25</td>
+                            </tr>
+                            <tr>
+                                <td>26</td>
+                                <td>27</td>
+                                <td>28</td>
+                                <td>29</td>
+                                <td>30</td>
+                                <td>31</td>
+                                <td class="empty">1</td>
+                                <div class="calendar rectangle3"></div>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="rectangle2"></div>
+                </div>
+            </div>
+            <div class="group clear_wrapper">
+                <div class="link_clear">очистить</div>
+            </div>
+            <div class="group apply_wrapper">
+                <div class="link_apply">применить</div>
+            </div>
+        </div>
+        <div class="group2_5-registration">
+            <div class="group2_5 rectangle2_5"></div>
+            <div class="group2_5 text2_5_1">Регистрация аккаунта</div>
+            <div class="name">
+                <div class="name name--text">Имя</div>
+                <div class="name name--rectangle"></div>
+            </div>
+            <div class="family">
+                <div class="family family--text">Фамилия</div>
+                <div class="family family--rectangle"></div>
+            </div>
+            <div class="group2 radio-f_m2_5">
+                <div class="male">
+                    <div class="male male--text">мужчина</div>
+                    <div class="male male--rectangle"></div>
+                    <div class="male male--rectangle2"></div>
+                </div>
+                <div class="female">
+                    <div class="female female--text">женщина</div>
+                    <div class="female female--rectangle"></div>
+                </div>
+            </div>
+            <div class="birthdate">дата рождения<div class="birthdate birthdate--text">ДД.ММ.ГГГГ</div>
+                <div class="birthdate birthdate--rectangle"></div>
+            </div>
+            <div class="entry">данные для входа в сервис<div class="entry entry--text">Email</div>
+                <div class="entry entry--rectangle"></div>
+            </div>
+            <div class="entry_2">
+                <div class="entry_2 entry_2--text">Пароль</div>
+                <div class="entry_2 entry_2--rectangle"></div>
+            </div>
+            <div class="group2_5 submit2_5">
+                <div class="special">
+                    <div class="special special--text">Получать спецпредложения</div>
+                    <div class="special special--rectangle"></div>
+                    <div class="special special--rectangle2"></div>
+                </div>
+            </div>
+            <div class="moveto_wrapper"> <button class="button  button--arrow" type="button">перейти к оплате</button></div>
+            <div class="group2_5 login2_5">
+                <div class="button_wrapper">
+                    <div class="login">Уже есть аккаунт на Toxin</div>
+                </div>
+                <div class="login_wrapper">
+                    <div class="button-section"><button class="button  button--border" type="button">войти</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="group2_6-login">
+            <div class="group2_6 rectangle2_6"></div>
+            <div class="group2_6 text2_6">Войти</div>
+            <div class="mail">
+                <div class="mail mail--text">Email</div>
+                <div class="mail mail--rectangle"></div>
+            </div>
+            <div class="password">
+                <div class="password password--text">Пароль</div>
+                <div class="password password--rectangle"></div>
+            </div>
+            <div class="button_wrapper">
+                <div class="button-section"><button class="button  button--arrow" type="button">войти</button></div>
+            </div>
+            <div class="group2_6 account">
+                <div class="account--text">Нет аккаунта на Toxin?</div>
+            </div>
+            <div class="button_create_wrapper">
+                <div class="button-section"><button class="button  button--border button--content-size" type="button">создать</button></div>
+            </div>
+        </div>
+        <div class="group5">
+            <div class="body5"></div>
+            <div class="upper">
+                <div class="image5"></div>
+                <div class="dotts5">
+                    <div class="ellipse_wrapper1">
+                        <div class="ellipse"></div>
+                    </div>
+                    <div class="ellipse_wrapper2">
+                        <div class="ellipse"></div>
+                    </div>
+                    <div class="ellipse_wrapper3">
+                        <div class="ellipse"></div>
+                    </div>
+                    <div class="ellipse_wrapper4">
+                        <div class="ellipse"></div>
+                    </div>
+                </div>
+                <div class="slider_left_wrapper">
+                    <div class="slide_left5"></div>
+                </div>
+                <div class="slider_right_wrapper">
+                    <div class="slide_right5"></div>
+                </div>
+            </div>
+            <div class="lower">
+                <div class="group7">
+                    <div class="text5">люкс</div>
+                    <div class="price">9 990₽ в сутки</div>
+                    <div class="number">№ 888</div>
+                    <div class="attach">145 Отзывов</div>
+                    <div class="stars5"></div>
+                    <div class="rectangle5"></div>
+                </div>
+            </div>
+        </div>
+        <div class="group4_1">
+            <div class="body4_1"></div>
+            <div class="upper4_1">
+                <div class="image4_1"></div>
+                <div class="dotts4_1">
+                    <div class="ellipse_wrapper4_1">
+                        <div class="ellipse4_1"></div>
+                    </div>
+                    <div class="ellipse_wrapper4_1_1">
+                        <div class="ellipse4_1"></div>
+                    </div>
+                    <div class="ellipse_wrapper4_1_2">
+                        <div class="ellipse4_1"></div>
+                    </div>
+                    <div class="ellipse_wrapper4_1_3">
+                        <div class="ellipse4_1"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="lower">
+                <div class="group-lower">
+                    <div class="price4_1">9 990₽ в сутки</div>
+                    <div class="number4_1">№ 840</div>
+                    <div class="attach4_1">65 Отзывов</div>
+                    <div class="stars4_1"></div>
+                    <div class="rectangle4_1"> </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

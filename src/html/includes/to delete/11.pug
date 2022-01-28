@@ -1,0 +1,17 @@
+//out: 22.html, pretty: true
+mixin color(color_class, color_discription)
+    .colors-holder
+        .cube(class= color_class)
+        .description
+            p.bold= color_discription
+            p #{color_name}
+            
+mixin text(options) 
+    
+    div(class= options.main)= options.title  
+        
+            
++color(123, 567)
++color(123, 567)
++text({main:"group2 text2_2", title:"люкс"})
+.group2.text2_2

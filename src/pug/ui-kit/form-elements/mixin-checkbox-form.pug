@@ -1,0 +1,6 @@
+mixin checkboxForm({groupClass, inputClass, spanClass, value, name, text, checked}={})
+
+  div(class = groupClass)
+    label
+      input(class = inputClass, type ='checkbox', value = value, name = name, checked = checked)
+      span(class = spanClass)= text

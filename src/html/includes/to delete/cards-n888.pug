@@ -1,0 +1,33 @@
+.n888-wrapper
+  .n888
+    .n888__base-form.base-form-style
+      .n888__image
+        img(src=require('../../img/n888.png').default, width='250px', height='151px')
+        //-img(src=require('./n888.png') width="270px" height="151px")
+      .n888-slider-left-wrapper
+        .n888__slider-icon.n888__slider-icon--left
+      .n888-slider-right-wrapper
+        .n888__slider-icon
+      .n888-checkbox-wrapper1
+        input(class= "n888__checkbox-point",type="radio", name= 'n888-checkbox')
+      .n888-checkbox-wrapper2
+        input(class= "n888__checkbox-point",type="radio", name= 'n888-checkbox')
+      .n888-checkbox-wrapper3
+        input(class= "n888__checkbox-point",type="radio", name= 'n888-checkbox')
+      .n888-checkbox-wrapper4
+        input(class= "n888__checkbox-point",type="radio", name= 'n888-checkbox', checked)
+    .n888__info.info-n888
+      .info-n888__number № 888
+      .info-n888.component__text.info-n888__text люкс
+      .info-n888.component__text.info-n888__price 9 990₽ в сутки
+      .info-n888__solid-line
+      .info-n888__stars
+        //-include ../../blocks/star-rating/star-rating.pug
+        fieldset.stars
+          .rating-stars
+            input(class= 'rating-star' type='radio', value='1', name= '1star')
+            input(class= 'rating-star' type='radio', value='2', name= '2star')
+            input(class= 'rating-star' type='radio', value='3', name= '3star')
+            input(class= 'rating-star' type='radio', value='4', name= '4star')
+            input(class= 'rating-star' type='radio', value='5', name= '5star', checked)
+      .info-n888.component__text.info-n888__feedback 145 Отзывов

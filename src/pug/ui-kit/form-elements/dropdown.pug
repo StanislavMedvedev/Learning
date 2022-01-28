@@ -1,0 +1,30 @@
+.dropdown
+    +text({main: 'dropdown__text', title: 'dropdown'})
+    +text({main: 'dropdown__text_default', title: 'Default'})
+    +input({class: 'dropdown__input', type: 'text', value: '2 спальни, 2 кровати...'})
+.dropdown-expanded
+    +text({main: 'dropdown-expanded__text', title: 'dropdown'})
+    +text({main: 'dropdown-expanded__text_expanded', title: 'expanded'})
+    +input({class: 'dropdown-expanded__input', type: 'text', value: '2 спальни, 2 кровати...'})
+    .dropdown-expanded__rectangle
+      +text({main: 'dropdown-expanded__rectangle_bedroom', title: 'спальни'}) 
+      .group1
+        .group1__rectangle
+          .group1__rectangle_text -
+        .group1__text 2
+        .group1__rectangle1
+          .group1__rectangle1_text +
+      +text({main: 'dropdown-expanded__rectangle_bed', title: 'кровати'})
+      .group2
+        .group2__rectangle
+          .group2__rectangle_text -
+        .group2__text 2
+        .group2__rectangle1
+          .group2__rectangle1_text +
+      +text({main: 'dropdown-expanded__rectangle_baths', title: 'ванные комнаты'})
+      .group2
+        .group2__rectangle
+          .group2__rectangle_text -
+        .group2__text 0
+        .group2__rectangle1
+          .group2__rectangle1_text +

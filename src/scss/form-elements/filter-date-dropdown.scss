@@ -1,0 +1,25 @@
+.filter-date-dropdown {
+  width: 266px;
+  height: 64px;
+  margin: 40px 0px 0px 141px;
+}
+
+.filter-date-dropdown__text {
+  padding: 0px 0px 5px 0px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+
+.filter-date-dropdown__input {
+  width: 100%;
+  height: 44px;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 4px;
+}

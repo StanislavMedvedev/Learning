@@ -1,0 +1,12 @@
+.search-wrapper
+  .search
+    .search__base-form.base-form-style
+      .component__header  Найдём номера под 
+                    br
+                    |ваши пожелания
+      .textfield-mix-wrapper
+        +textfield({textfieldMod: 'small, moved-bottom20', leftText: 'прибытие', inputMod: 'dark, dropdown, small', placeholder: `${variables.date}`, iconMod: 'small'})
+        +textfield({textfieldMod: 'small, right', leftText: 'выезд', inputMod: 'dark, dropdown, small', placeholder: `${variables.date}`, iconMod: 'small'})
+        +textfield({textfieldMod: 'standart, moved-bottom20', leftText: 'гости', inputMod: 'default, dark', placeholder: 'сколько гостей'})
+      .button-search-wrapper
+        +button({title: 'подо6рать номер', iconClass: 'button__icon'})

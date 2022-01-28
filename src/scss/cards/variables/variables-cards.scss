@@ -1,0 +1,38 @@
+//button
+$button-heght: 2.75rem;
+$color-primary: #BC9CFF;
+$color-primary-gradient: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+$color-primary-gradient-disable: linear-gradient(180deg, rgba(188, 156, 255, 0.5) 0%, rgba(139, 164, 240, 0.5) 100%);
+$font-size: 0.875rem;
+$gap: 0.625rem;
+$radius: 5rem;
+
+//cards-search
+
+$base-form-width: 23.75rem;//.search__base-form
+$base-form-height: 23.375rem;//.search__base-form
+$border-radius: 0.25rem;//.base-form-style
+$border: 1px solid rgba(0, 0, 0, 0.12);//.base-form-style
+$box-shadow-standart: 0px 0px 25px rgba(0, 0, 0, 0.2);//.base-form-style
+$font-max: 1.5rem;//.component__header
+$line-height-max: 1.875rem;//.component__header
+
+//cards-registration
+
+$reg-base-width: 23.75rem;//.registration__base-form
+$reg-base-height: 40.375rem;//.registration__base-form
+$border-primary-25: 1px solid rgba(31, 32, 65, 0.25);
+$border-gradient: 1px solid #BC9CFF;
+$border-radius-10: 10px;
+$background-gradient: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+$font-size-14: 0.875rem;
+$line-height-medium: 1.5rem;
+$line-height-18: 1.125rem;
+$color-075: rgba(31, 32, 65, 0.75);
+$color-05: rgba(31, 32, 65, 0.5);
+$background-025: rgba(31, 32, 65, 0.25);
+
+//cards-login
+
+$login-base-width: 23.75rem;//.login__base-form
+$login-base-height: 22.375rem;//.login__base-form

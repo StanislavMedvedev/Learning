@@ -1,0 +1,32 @@
+.registration-wrapper
+  .registration
+    .registration__base-form.base-form-style
+      //-`${variables.name}`
+      .component__header Регистрация аккаунта
+      .textfield-registration-wrapper
+        +textfield({textfieldMod: 'standart', inputMod: 'dark, dropdown, default', placeholder: `${variables.name}`})
+        +textfield({textfieldMod: 'standart, moved-top10', inputMod: 'dark, dropdown, default', placeholder: `${variables.family}`})
+      .registration-radio-button-wrapper
+        include ../../blocks/cards-registration-radio-button-block/cards-registration-radio-button-block.pug
+        //-.registration__radio-button
+          input(type='radio', class='registration__radio-button-circle', name='radio', checked)
+          .registration__radio-button-text.registration__radio-button-text--moved-right.component__text мужчина
+          input(type='radio', class='registration__radio-button-circle', name='radio')
+          .registration__radio-button-text.component__text женщина
+      .textfield-registration-wrapper
+        +textfield({textfieldMod: 'standart, moved-bottom20', leftText: 'дата рождения', inputMod: 'dark, dropdown, default', placeholder: `${variables.date}`})
+      .textfield-registration-wrapper
+        +textfield({textfieldMod: 'standart, moved-bottom20', leftText: 'данные для входа в сервис', inputMod: 'dark, dropdown, default', placeholder: `${variables.mail}`})
+        +textfield({textfieldMod: 'standart', inputMod: 'dark, dropdown, default', placeholder: `${variables.password}`})
+      .toggle-button-wrapper
+        include ../../blocks/cards-registration-toggle-button-block/cards-registration-toggle-button-block.pug
+        //-.toggle-button
+          .toggle-button__base-form 
+            .toggle-container
+            input(type='checkbox', class='toggle-button__input')
+            .toggle-button__text Получать спецпредложения
+      .button-move-to-wrapper
+        +button({title: 'перейти к оплате', iconClass: 'button__icon'})
+      .component__text.registration__text Уже есть аккаунт на Toxin
+      .button-enter-wrapper
+        +button({title: 'войти', mods: 'border,content-size'})

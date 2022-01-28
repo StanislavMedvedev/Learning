@@ -1,0 +1,89 @@
+.standart-nav-bar-wrapper {
+  margin: 4.5rem 0 0 -1.875rem;//72px 0 0 30px
+}
+  
+.standart-nav-bar {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  width: 90rem;//1440px
+  height: 4.375rem;//70px
+}
+  
+.logo-main {
+  display: flex;
+  align-items: center;
+}
+  
+.logo-main__icon {
+  margin-left: 8.75rem;//140px
+  margin-right: 0.75rem;//12px
+  width: 2.5rem;//40px
+  height: 2.5rem;//40px
+}
+  
+.logo-main__icon--colored {
+  @extend .color-logo;
+}
+  
+.logo-main__text {
+  width: 3.375rem;//54px
+  height: 0.8125rem;//13px
+}
+  
+.logo-main__text--toxin {
+  @extend .toxin-logo-text;
+}
+  
+.standart-nav-bar__menu {
+  list-style: none;
+  cursor: default;
+  @extend .main-style;
+  @extend .font14-17;
+  @extend .dark50;
+}
+  
+.b-menu {
+  display: flex;
+  align-items: center;
+  padding-left: 14.375rem; //370px->230px
+}
+  
+.list__item {
+  margin-right: 1.875rem;//30px
+    
+  &:hover {
+    color: #BC9CFF;
+  }
+}
+  
+.list__item--font-weight-bold {
+  font-weight: bold;
+  @extend .dark75;
+}
+  
+.list__item--moved-right {
+  margin-right: 2.75rem;//44px
+}
+  
+.icon-extra {
+  outline: none;
+  cursor: pointer;
+  @extend .font-material-icon;
+}
+  
+.icon-extra__icon {
+  margin: 0.25rem 17.5rem 0 -18.375rem;//4px 280px 0 -294px
+  width: 0.875rem;//14px
+  height: 0.625rem;//10px
+  //font-size: 1.5rem;
+  //line-height: 1.25rem;//20px
+}
+  
+.icon-extra__icon--expand-more {
+  @extend .expand-icon-main;
+}
+  
+.standart-nav-bar__wrapper-register-button {
+  margin-left: 1.25rem;//20px
+}

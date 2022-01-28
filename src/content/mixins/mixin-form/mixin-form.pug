@@ -1,0 +1,12 @@
+mixin form(options)
+  -
+    var mainClassName = "main"
+    var iconClassName = "icon"
+    iconClassName += options.isIcon ? " icon--arrow" : ""
+    
+  div(class = options.main)
+    div(class = iconClassName + options.iconNumber + ' ' + iconClassName + options.iconNumber + '--arrow-' +options.main)
+    div(class = 'dropdown' + ' ' + 'dropdown' + '-' + options.main)
+      div(class = options.main + ' ' + 'dropdown--date-' + options.main)= options.formText
+      div(class = options.main + ' ' + 'dropdown--text-' + options.main)= options.title
+      div(class = options.main + ' ' + 'dropdown--rectangle-' + options.main)

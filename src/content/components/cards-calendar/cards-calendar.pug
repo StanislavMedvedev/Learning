@@ -1,0 +1,67 @@
+.group-calendar
+  .group.calendar
+    .rectangle
+    +text({main:"month_year", title:"Август 2019"})
+    .arrow_back_wrapper
+      .calendar__icon.calendar__icon--left
+      //-.arrow_back
+    .arrow_forward_wrapper
+      .calendar__icon
+      //-.arrow_forward
+    .days 
+      .calendar
+        table
+          tr
+            th Пн
+            th Вт
+            th Ср
+            th Чт
+            th Пт
+            th Сб
+            th.holiday Вс
+          tr
+            td.empty 29
+            td.empty 30
+            td.empty 31
+            td 1
+            td 2
+            td 3
+            td 4
+          tr
+            td 5
+            td 6
+            td 7
+            td.today 8
+            td 9
+            td 10
+            td 11
+          tr
+            td 12
+            td 13
+            td 14
+            td 15
+            td 16
+            td 17
+            td 18
+          tr
+            td.datepick 19
+            td 20
+            td 21
+            td 22
+            td.datepick 23
+            td 24
+            td 25
+          tr
+            td 26
+            td 27
+            td 28
+            td 29
+            td 30
+            td 31
+            td.empty 1
+            .calendar.rectangle3
+      .rectangle2
+  .group.clear_wrapper  
+    +text({main:"link_clear", title:"очистить"})
+  .group.apply_wrapper
+    +text({main:"link_apply", title:"применить"})
