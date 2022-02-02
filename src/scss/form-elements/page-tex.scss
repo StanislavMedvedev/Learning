@@ -11,26 +11,23 @@ $width-height20: 1.25rem;//20px
   font-family: $font-Montserrat;
   font-style: normal;
   font-weight: bold;
-  //background-color: #a1cafa5b;
-  border: 1px solid red;
 
   &--standart {
-    width: 20rem;//100%[320px]
+    width: 20rem;//[320px]
     height: 4.188rem;//67px
   }
 
   &--medium {
-    width: 16.625rem;//calc(100% - 17%)[266px]
+    width: 16.625rem;//[266px]
     height: 4.188rem;//67px
   }
 
   &--small {
-    width: 9.375rem;//calc((100%/2)-10px)[150px]
+    width: 9.375rem;//[150px]
     height: 4.188rem;//67px
   }
   
   &--right {
-    //margin-left: calc(100% - 32px);
     margin-left: 10.625rem;//170px
   }
 
@@ -80,7 +77,6 @@ $width-height20: 1.25rem;//20px
     width: 100%;//320px
     height: 2.75rem;//44px
     margin-top: 0.313rem;//5px
-    //margin-bottom: 1.25rem;//20px
     padding-left: 0.938rem;//15px
     padding-right: 0.938rem;//15px
     background: #fff;
@@ -113,7 +109,7 @@ $width-height20: 1.25rem;//20px
     }
     
     &--small {
-      width: 9.375rem;//calc((100%/2)-10px);//150px
+      width: 9.375rem;//150px
     }
   
     &:hover, &:focus {
@@ -135,7 +131,7 @@ $width-height20: 1.25rem;//20px
     height: $width-height20;//20px
     cursor: pointer;
     outline: none;
-    margin-top: 2.25rem;//modded to 36px(-32px(last -52px))
+    margin-top: 2.25rem;
     margin-left: calc(100% - 32px);//288px
     background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.40625 7.42187L1.74709e-06 6.01562L6 0.0156231L12 6.01562L10.5938 7.42187L6 2.82812L1.40625 7.42187Z' fill='%231F2041' fill-opacity='0.5'/%3E%3C/svg%3E");
     transform: rotate(-180deg);
@@ -156,7 +152,7 @@ $width-height20: 1.25rem;//20px
 
 .dropdown-expanded__rectangle {
   display: block;
-  width: 16.625rem;//calc(100% - 17%)[266px]
+  width: 16.625rem;//[266px]
   height: 7.4375rem;//119px
   margin-top: -0.0625rem;//-1px
   margin-bottom: 2.5rem;//40px
@@ -164,8 +160,7 @@ $width-height20: 1.25rem;//20px
   border: 0.0625rem solid $color-dark50;//1px
   border-radius: 0 0 0.125rem 0.125rem;//0 0 2px 2px
   box-sizing: border-box;
-  color: #1F2041; 
-  border: 1px solid red; 
+  color: #1F2041;  
 }
 
 .dropdown-form__text {

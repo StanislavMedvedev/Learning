@@ -7,23 +7,19 @@
   font-style: normal;
   font-weight: bold;
   color: $color-dark100;
-  border: 1px solid red;
-
-  &__base-form {
-    width: 16.625rem;//calc(100% - 17%)[266px]
-    height: 2.75rem;//44px
+  width: 16.625rem;//calc(100% - 17%)[266px]
+  height: 2.75rem;//44px
   
-    &--large {
-      height: 13.5625rem;//217px
-    }
-
-    &--bottom20 {
-      margin-top: 1.25rem;//20px
-    }
+  &--large {
+    height: 13.5625rem;//217px//height: 17.313rem;//277px
   }
 
+  &--bottom20 {
+    margin-top: 1.25rem;//20px
+  }
+  
+
   &__text {
-    //display: inline-block;
     padding-top: 0.875rem;//14px
     font-size: 0.75rem;//12px
     line-height: 0.9375rem;//15px
@@ -37,7 +33,6 @@
     line-height: 1.5rem;//24px
     margin-top: -2.1875rem;//-35px
     margin-left: 266px - 44px;//calc(100% - 44px);
-    //margin-left: 13.875rem;//222px
     background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.40625 7.42187L1.74709e-06 6.01562L6 0.0156231L12 6.01562L10.5938 7.42187L6 2.82812L1.40625 7.42187Z' fill='%231F2041' fill-opacity='0.5'/%3E%3C/svg%3E");
     color: rgba(31, 32, 65, 0.5);
     background-repeat: no-repeat;

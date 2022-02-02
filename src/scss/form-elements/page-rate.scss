@@ -4,16 +4,12 @@
   font-weight: bold;
   font-size: 0.75rem;//12px
   line-height: 0.9375rem;//15px
-  border: 1px solid red;
+  width: 16.5625rem;//265px
+  height: 3.75rem;//60px
 
   &-wrapper {
     margin-left: 36.6875rem;//587px
     margin-top: 2.5rem;//40px
-  }
-
-  &__base-form {
-    width: 16.5625rem;//265px
-    height: 3.75rem;//60px
   }
 
   &__text {

@@ -12,7 +12,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '[name].[contenthash].js',
+    filename: '[name].[hash].js',//filename: '[name].[contenthash].js',
     //path: __dirname + '/dist',
     //filename: 'bundle.js',
     publicPath: '/'
@@ -127,7 +127,7 @@ module.exports = {
               //new ExtractTextPlugin('[name].css'),
   ],
   devServer: {
-      contentBase: path.join(__dirname, 'dist'),//[path.resolve(__dirname, "public"), path.resolve(__dirname, "assets")],
+      //-contentBase: path.join(__dirname, 'dist'),//[path.resolve(__dirname, "public"), path.resolve(__dirname, "assets")],
       compress: true,
       port: 7700,
       historyApiFallback: true,

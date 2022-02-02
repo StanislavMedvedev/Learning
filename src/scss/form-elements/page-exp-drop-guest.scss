@@ -10,12 +10,8 @@
   font-size: 0.75rem;//12px
   line-height: 0.9375rem;//15px
   color: $color-dark100;
-  border: 1px solid red;
-
-  &__base-form {
-    width: 20rem;//320px
-    height: 13.875rem;//222px
-  }
+  width: 20rem;//320px
+  height: 13.875rem;//222px
 
   &__header {
     text-transform: uppercase;
