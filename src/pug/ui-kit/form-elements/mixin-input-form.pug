@@ -1,0 +1,6 @@
+mixin input-form({groupClass, inputClass, spanClass, type, value, name, text, checked}={})
+
+  div(class = groupClass)
+    label
+      input(class = inputClass, type = type, value = value, name = name, checked = checked)
+      span(class = spanClass)= text

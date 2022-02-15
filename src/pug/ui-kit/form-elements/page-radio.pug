@@ -1,10 +1,4 @@
 .radio-buttons-wrapper
-  .radio-buttons 
-    span.radio-buttons__header Radio Buttons
-    .radio-button
-      label
-        input(type='radio', class='radio-button__circle', name='radio-button', checked)
-        span(class='radio-button__text radio-button__text--moved-right component__text') Мужчина
-      label
-        input(type='radio', class='radio-button__circle', name='radio-button')
-        span(class='radio-button__text component__text') Женщина
+  +block-header({blockName: 'radio-buttons', blockNameText: 'radio buttons'})
+    +input-form({groupClass: 'radio__group', inputClass: 'radio-button__circle', type: 'radio', spanClass: 'radio-button__text radio-button__text--moved-right component__text', value: 'radio-button', name: 'radio-button', text: 'Мужчина', checked: 'checked'})
+    +input-form({groupClass: 'radio__group', inputClass: 'radio-button__circle', type: 'radio', spanClass: 'radio-button__text component__text', value: 'radio-button', name: 'radio-button', text: 'Женщина'})

@@ -16,6 +16,10 @@
     color: $color-dark100;
     cursor: default;
   }
+
+  &__group {
+    display: flex;
+  }
 }
 
 .radio-button {
