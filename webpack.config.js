@@ -1,3 +1,4 @@
+const webpack = require("webpack");
 const path = require('path');
 const fs = require('fs');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -35,14 +36,14 @@ module.exports = {
   module: {
       rules: [
           {
-            test: /\.js$/,
+            test: /\.js$/i,
             use: 'babel-loader',
             exclude: [
               /node_modules/
             ]
           }, 
           {
-            test: /\.scss$/,
+            test: /\.s[ac]ss$/i,
             use: ExtractTextPlugin.extract(
               {
                 fallback: 'style-loader',
@@ -72,14 +73,14 @@ module.exports = {
               )
             },
           {
-            test: /\.pug$/,
+            test: /\.pug$/i,
             loader: 'pug-loader',
             options: {
             "pretty":true
             }
           },
           {
-            test: /\.(jpeg|jpg|png|svg)(\?v=\d+\.\d+\.\d+)?$/,
+            test: /\.(jpeg|jpg|png|svg)(\?v=\d+\.\d+\.\d+)?$/i,
             exclude: [
               path.resolve(__dirname, "src/assets/fonts/")
             ],
@@ -91,7 +92,7 @@ module.exports = {
             },
           },
           {
-            test: /\.(woff|woff2|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+            test: /\.(woff|woff2|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/i,
             //include: [
             //  path.resolve(__dirname, "src/assets/fonts/")
             //],
@@ -125,6 +126,11 @@ module.exports = {
               ),
               new CleanWebpackPlugin(),
               //new ExtractTextPlugin('[name].css'),
+              new webpack.ProvidePlugin({
+                $: 'jquery',
+                jQuery: 'jquery',
+                'window.jQuery': 'jquery',
+              }),
   ],
   devServer: {
       //-contentBase: path.join(__dirname, 'dist'),//[path.resolve(__dirname, "public"), path.resolve(__dirname, "assets")],

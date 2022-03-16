@@ -1,0 +1,109 @@
+.datepicker-wrapper {
+  display: none;
+  position: absolute;
+  margin-top: -615px;
+  margin-left: 140px;
+  z-index: 100;
+}
+
+.datepicker-wrapper1 {
+  display: none;
+  position: absolute;
+  margin-top: -508px;
+  margin-left: 140px;
+  z-index: 100;
+}
+
+.datepicker--cell {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(31, 32, 65, 0.5);
+  height: 40px;
+  border-radius: 22px;
+}
+
+.datepicker--cell.-current- {
+  color: #fff;
+  background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%); 
+}
+
+.datepicker--cell.-current-.-focus- {
+  color: #fff;
+}
+
+.datepicker--cell.-current-.-in-range- {
+  color: #fff;
+}
+
+.datepicker--cell.-in-range- {
+  background: rgba(188, 156, 255, 0.25);
+  color: rgba(31, 32, 65, 0.5);
+}
+
+.datepicker--cell.-in-range-.-focus- {
+  background: rgba(188, 156, 255, 0.7);
+}
+
+.datepicker--cell.-range-from- {
+  border: 1px solid rgba(188, 156, 255, 0.5);
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-radius: 22px;
+}
+
+.datepicker--cell.-range-to- {
+  border: 1px solid rgba(188, 156, 255, 0.5);
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-radius: 22px;
+}
+
+.datepicker--cell.-selected- {
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+}
+
+.datepicker--cell.-selected-.-current- {
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+}
+
+.datepicker--cell.-selected-.-focus- {
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+}
+
+.datepicker--day-name {
+  color: #BC9CFF;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.datepicker {
+  width: 318px;
+  height: 369px;
+  color: #1F2041;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+}
+
+.datepicker--nav-action:hover {
+  background: #fff;
+}
+
+.datepicker--nav-action svg {
+  width: 24px;
+  height: 24px;
+}
+
+.datepicker--nav-action path {
+  stroke: #BC9CFF;
+}
+
+.datepicker--nav-title i {
+  color: #1F2041;
+}

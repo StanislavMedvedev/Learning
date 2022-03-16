@@ -4,7 +4,12 @@ html
     meta(charset="utf-8")
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     link(rel="stylesheet", type="text/css", href="form-elements-styles.css")
+    link(href='dist/css/datepicker.min.css', rel='stylesheet', type='text/css')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js')
+    script(src='dist/js/datepicker.min.js')
+    script(src='dist/js/i18n/datepicker.en.js')
     title Form Elements
+
   body(class='page')
     include mixin-text.pug
     include mixin-dropdown-form.pug
@@ -15,6 +20,8 @@ html
     //-include page.pug
     //-include textfield.pug //main
     include page-tex.pug
+    .datepicker-here.datepicker-wrapper(type='text', data-language='en')
+    .datepicker-here.datepicker-wrapper1(type='text', data-range='true', data-multiple-dates-separator=' - ', data-language='en')
     include page-exp-check.pug
     include page-icon-tex.pug
     include page-checkbox.pug
