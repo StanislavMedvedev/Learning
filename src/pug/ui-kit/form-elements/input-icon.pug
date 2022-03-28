@@ -1,0 +1,7 @@
+mixin email
+  .email
+    input(type="email", value="ДД.ММ.ГГГГ", data-range='true', data-multiple-dates-separator=' - ', data-language='en').email__input.datepicker-here
+    button.email__button arrow_forward
+
+.wrapper
+  +email()

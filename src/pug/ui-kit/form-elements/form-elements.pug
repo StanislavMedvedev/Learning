@@ -5,6 +5,15 @@ html
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     link(rel="stylesheet", type="text/css", href="form-elements-styles.css")
     link(href='dist/css/datepicker.min.css', rel='stylesheet', type='text/css')
+
+    link(rel='apple-touch-icon', sizes='180x180', href='dist/src/content/favicon/apple-touch-icon.png')
+    link(rel='icon', type='image/png', sizes='32x32', href='dist/src/content/favicon/favicon-32x32.png')
+    link(rel='icon', type='image/png', sizes='16x16', href='dist/src/content/favicon/favicon-16x16.png')
+    link(rel='manifest', href='dist/src/content/favicon/site.webmanifest')
+    link(rel='mask-icon', href='dist/src/content/favicon/safari-pinned-tab.svg', color='#5bbad5')
+    meta(name='msapplication-TileColor', content='#da532c')
+    meta(name='theme-color', content='#ffffff')
+
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js')
     script(src='dist/js/datepicker.min.js')
     script(src='dist/js/i18n/datepicker.en.js')
@@ -31,3 +40,8 @@ html
     include page-rate.pug
     include page-exp-drop-guest.pug
     include page-rich-checkbox.pug
+
+    include input-icon.pug
+
+input(type='text', class='datepicker-here', prevHtml= '<span class="material-icons">arrow_back</span>',
+      nextHtml= '<span class="material-icons">arrow_forward</span>')
