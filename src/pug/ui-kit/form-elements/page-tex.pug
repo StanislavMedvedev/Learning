@@ -14,3 +14,11 @@
       +dropdownForm({titleText: 'спальни', circleNumber: '2', circlePlusMod: 'moved-left'})
       +dropdownForm({titleText: 'кровати', circleNumber: '2', circlePlusMod: 'moved-left'})
       +dropdownForm({titleText: 'ванные комнаты', circleNumber: '0', circleMinusMod: 'disabled', circlePlusMod: 'moved-left'})
+  .wrapper
+    +input-icon({ groupClass: 'textfield1', titleText: 'masked text field', withState: 'true', stateMod: 'default, moved-text', stateText: 'default', isCalendar: 'true', isTextOpacity: 'true', type: 'text', placeholder: 'ДД.ММ.ГГГГ', isFontModded: 'true'})(lang='en')
+  .wrapper.wrapper--small.wrapper--moved-bottom40
+    +input-icon({ groupClass: 'textfield1', titleText: 'date dropdown', isCalendar: 'true', type: 'text', placeholder: 'ДД.ММ.ГГГГ', isIcon: 'true', iconName: "expand_more"})(lang='en')
+  .wrapper.wrapper--small.wrapper--moved-right
+    +input-icon({ groupClass: 'textfield1', titleText: 'date dropdown', isCalendar: 'true', type: 'text', placeholder: '19.08.2019', isFontModded: 'true', isIcon: 'true', iconName: "expand_more"})(lang='en')
+  .wrapper.wrapper--medium.wrapper--moved-bottom40
+    +input-icon({ groupClass: 'textfield1', titleText: 'filter date dropdown', isCalendar: 'true', type: 'text', placeholder: '19 авг - 23 авг', isFontModded: 'true', isIcon: 'true', iconName: "expand_more"})(range='true', separator=" - ", lang='en')

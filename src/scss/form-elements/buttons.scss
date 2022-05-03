@@ -1,0 +1,53 @@
+.buttons-wrapper {
+  width: 266px;
+  height: 195px;
+  margin-top: 40px;
+  margin-left: 979px;
+}
+
+.buttons {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+
+.button-wrapper {
+  margin-top: 16px;
+  
+  &--moved {
+    margin-top: 30px;
+
+    &-right {
+      margin-top: -44px;
+      margin-left: 130px;
+  
+      &-text {
+        margin-top: -15px;
+        margin-left: 80px;
+      }
+    }
+  } 
+}
+
+.button-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #BC9CFF;
+  cursor: pointer;
+
+  &--disabled {
+    color: rgba(31, 32, 65, 0.5);
+  }
+
+  &:hover {
+    opacity: 75%;
+  }
+}

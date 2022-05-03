@@ -1,0 +1,12 @@
+mixin exp-drop({rowText, number, isButtonApply, id} = {})
+
+  div(class = "row-group")
+    span(class = "dropdown-expanded-guest__text")= rowText
+    div(class = "guest-group dropdown-expanded-guest__group")
+      div(class = "guest-group__circle guest-group__circle--disabled")
+        span(class = "guest-group__text guest-group__text--disabled") -
+      span(class = "guest-group__text-number")= number
+      div(class = "guest-group__circle guest-group__circle--moved-left")
+        span(class = "guest-group__text") +
+  if isButtonApply
+    span(class = "dropdown-expanded-guest__button", id = id) применить

@@ -67,7 +67,7 @@ $radius: 5rem;
     color: $color-primary;
   }
       
-  /*&--arrow {
+  &--arrow {
     position: relative;
     width: 320px;
         
@@ -79,7 +79,7 @@ $radius: 5rem;
       content: 'arrow_forward';
       @extend %material-icons;
     }
-  }*/
+  }
       
   &--content-size {
     padding-right: 20px;

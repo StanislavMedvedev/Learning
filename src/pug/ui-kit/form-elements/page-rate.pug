@@ -2,17 +2,25 @@
   .rate-button
     .rate-button__text rate button
       .rate-button__container  
-        .rate-button__stars
-          .rate-button__rating
-            input(class= 'rating-star' type='radio', value='1', name= '1star')
-            input(class= 'rating-star' type='radio', value='2', name= '2star')
-            input(class= 'rating-star' type='radio', value='3', name= '3star')
-            input(class= 'rating-star' type='radio', value='4', name= '4star', checked)
-            input(class= 'rating-star' type='radio', value='5', name= '5star')
-        .rate-button__stars.rate-button__stars--right
-          .rate-button__rating
-            input(class= 'rating-star' type='radio', value='1', name= '1star')
-            input(class= 'rating-star' type='radio', value='2', name= '2star')
-            input(class= 'rating-star' type='radio', value='3', name= '3star')
-            input(class= 'rating-star' type='radio', value='4', name= '4star')
-            input(class= 'rating-star' type='radio', value='5', name= '5star', checked)
+        .rating
+          input(class= 'rating__star', type='radio', name= 'star', id='star1')
+          label(class= 'rating__label', for='star1')
+          input(class= 'rating__star', type='radio', name= 'star', id='star2', checked)
+          label(class= 'rating__label', for='star2')
+          input(class= 'rating__star', type='radio', name= 'star', id='star3')
+          label(class= 'rating__label', for='star3')
+          input(class= 'rating__star', type='radio', name= 'star', id='star4')
+          label(class= 'rating__label', for='star4')
+          input(class= 'rating__star', type='radio', name= 'star', id='star5')
+          label(class= 'rating__label', for='star5')
+        .rating.rating--right
+          input(class= 'rating__star', type='radio', name= 'star1', id='star6', checked)
+          label(class= 'rating__label', for='star6')
+          input(class= 'rating__star', type='radio', name= 'star1', id='star7')
+          label(class= 'rating__label', for='star7')
+          input(class= 'rating__star', type='radio', name= 'star1', id='star8')
+          label(class= 'rating__label', for='star8')
+          input(class= 'rating__star', type='radio', name= 'star1', id='star9')
+          label(class= 'rating__label', for='star9')
+          input(class= 'rating__star', type='radio', name= 'star1', id='star0')
+          label(class= 'rating__label', for='star0')

@@ -1,7 +1,37 @@
-mixin email
-  .email
-    input(type="email", value="ДД.ММ.ГГГГ", data-range='true', data-multiple-dates-separator=' - ', data-language='en').email__input.datepicker-here
-    button.email__button arrow_forward
+mixin input-icon({groupClass, titleText, stateMod = '', withState, stateId, stateText, inputClass, isFontModded, isTextOpacity, isDropdown, type, inputId, isCalendar, isIcon, isIconColored, placeholder, buttonId, iconName} = {})
+  -
+    let stateModList = stateMod.split(',')
+    let stateMods = 'textfield1__text'
+    state = state || ''
+    stateText = stateText || ''
 
-.wrapper
-  +email()
+    title = groupClass + '__text'
+    inputClass = groupClass + '__input'
+    buttonClass = groupClass + '__button'
+
+    inputClass += isFontModded ? " textfield1__input--font-modded" : ""
+    inputClass += isCalendar ? " datepicker-here" : ""
+    inputClass += isTextOpacity ? " textfield1__input--opacity" : ""
+    inputClass += isDropdown ? " textfield1__input--dropdown" : ""
+    buttonClass += isIconColored ? " textfield1__button--colored" : ""
+    
+    for (let i=0; i < stateModList.length; i++) {
+      if (stateMod) {
+        stateMods = stateMods + ' textfield1__text--' + stateModList[i].trim()
+      }
+      else {
+        break
+      }
+    }
+
+  form  
+    label(class = groupClass)
+      span(class = title)= titleText
+
+        if withState 
+          span(class = stateMods, id = stateId)= stateText
+
+      input(class = inputClass, type = type, id = inputId, placeholder = placeholder, data-range!= attributes.range, data-multiple-dates-separator!= attributes.separator, data-language!= attributes.lang)
+    
+      if isIcon
+      button(class = buttonClass, type = "button", id = buttonId)= iconName

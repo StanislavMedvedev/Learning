@@ -1,0 +1,51 @@
+.slider-wrapper {
+  margin-left: 979px;
+  margin-top: -1596px;
+  width: 266px;
+  height: 48px;
+}
+
+.range-header {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+
+.range-price {
+  margin-left: 68px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  text-transform: uppercase;
+  color: rgba(31, 32, 65, 0.5);
+}
+
+.slider {
+  width: 266px;
+  height: 6px;
+  margin-top: 20px;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 3px;
+  position: relative;
+}
+
+.slider-line {
+  width: 88px;
+  height: 6px;
+  margin-top: -6px;
+  margin-left: 82px;
+  //left: 75%;
+  //right: 75%;
+  position: absolute;
+  background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+  border-radius: 3px;
+}

@@ -1,0 +1,28 @@
+.wrapper.wrapper--moved-bottom
+  +input-icon({ groupClass: 'textfield1', titleText: 'text field', withState: 'true', stateMod: 'default, moved-text', stateText: 'default', isTextOpacity: 'true', type: 'text', placeholder: 'Email'})
+.wrapper
+  +input-icon({ groupClass: 'textfield1', titleText: 'text field', withState: 'true', stateMod: 'default, moved-text', stateText: 'hover/focus', type: 'text', placeholder: 'This is pretty awesome', isFontModded: 'true'})
+.wrapper
+  +input-icon({ groupClass: 'textfield1', titleText: 'dropdown', withState: 'true', stateMod: 'default, moved-text', stateText: 'default', stateId: 'moddedStateText', inputId: 'dropdownInput1', type: 'text', placeholder: 'Сколько гостей', isFontModded: 'true', isIcon: 'true', buttonId: 'dropdown-activator', iconName: "expand_more"})
+  .dropdown-expanded-guest__rectangle.deploy-wrapper
+    +exp-drop({rowText: 'взрослые', number: '0'})
+    +exp-drop({rowText: 'дети', number: '0'})
+    +exp-drop({rowText: 'младенцы', number: '0', isButtonApply: 'true'})
+.wrapper
+  +input-icon({ groupClass: 'textfield1', titleText: 'masked text field', withState: 'true', stateMod: 'default, moved-text', stateText: 'default', isCalendar: 'true', isTextOpacity: 'true', type: 'text', placeholder: 'ДД.ММ.ГГГГ', isFontModded: 'true'})(lang='en')
+.wrapper.wrapper--small.wrapper--moved-bottom40
+  +input-icon({ groupClass: 'textfield1', titleText: 'date dropdown', isCalendar: 'true', type: 'text', placeholder: 'ДД.ММ.ГГГГ', isIcon: 'true', iconName: "expand_more"})(lang='en')
+.wrapper.wrapper--small.wrapper--moved-right
+  +input-icon({ groupClass: 'textfield1', titleText: 'date dropdown', isCalendar: 'true', type: 'text', placeholder: '19.08.2019', isFontModded: 'true', isIcon: 'true', iconName: "expand_more"})(lang='en')
+.wrapper.wrapper--medium.wrapper--moved-bottom40
+  +input-icon({ groupClass: 'textfield1', titleText: 'filter date dropdown', isCalendar: 'true', type: 'text', placeholder: '19 авг - 23 авг', isFontModded: 'true', isIcon: 'true', iconName: "expand_more"})(range='true', separator=" - ", lang='en')
+.wrapper.wrapper--medium.wrapper--moved-bottom40
+  +input-icon({ groupClass: 'textfield1', titleText: 'subscription text field', isTextOpacity: 'true', type: 'text', placeholder: 'Email', isFontModded: 'true', isIcon: 'true', iconName: "arrow_forward", isIconColored: 'true'})
+.wrapper.wrapper--medium.wrapper--moved-bottom100
+  +input-icon({ groupClass: 'textfield1', titleText: 'dropdown', withState: 'true', stateMod: 'default, moved-text', stateText: 'default', stateId: 'moddedStateText', isDropdown: 'true', type: 'text', placeholder: '2 спальни, 2 кровати...', isFontModded: 'true', isIcon: 'true', buttonId: 'dropdown', iconName: "expand_more"})
+.wrapper.wrapper--medium
+  +input-icon({ groupClass: 'textfield1', titleText: 'dropdown', withState: 'true', stateMod: 'default, moved-text', stateText: 'expanded', stateId: 'moddedStateText', isDropdown: 'true', type: 'text', placeholder: '2 спальни, 2 кровати...', isFontModded: 'true', isIcon: 'true', buttonId: 'dropdown', iconName: "expand_more"})
+  //-.dropdown-expanded__rectangle.dropdown-form.dropdown-wrapper
+    +dropdownForm({titleText: 'спальни', circleNumber: '2', circlePlusMod: 'moved-left'})
+    +dropdownForm({titleText: 'кровати', circleNumber: '2', circlePlusMod: 'moved-left'})
+    +dropdownForm({titleText: 'ванные комнаты', circleNumber: '0', circleMinusMod: 'disabled', circlePlusMod: 'moved-left'})

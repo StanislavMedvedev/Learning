@@ -1,0 +1,18 @@
+.deploy-wrapper {
+  display: none;
+  //transition: .5s;
+  //transform: translateY(0px);
+  position: absolute;
+  z-index: 10;
+  font-family: $font-Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.75rem;//12px
+  line-height: 0.9375rem;//15px
+}
+
+.dropdown-wrapper {
+  display: block;
+  position: absolute;
+  z-index: 10;
+}

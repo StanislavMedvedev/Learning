@@ -1,6 +1,6 @@
 .dropdown-expanded-guest-wrapper {
   margin-left: 587px;
-  margin-top: 190px;
+  margin-top: 200px;
 }
 
 .dropdown-expanded-guest {
@@ -24,7 +24,7 @@
     padding-left: 0.938rem;//15px
     padding-right: 2.5rem;//40px
     box-sizing: border-box;
-    border-radius: 0.125rem 0.125rem 0 0;//2px 2px 0 0
+    border-radius: 0.25rem 0.25rem 0 0;//4px 4px 0 0
     background: #fff;
     color: $color-dark75;
     border: 0.0625rem solid $color-dark50;//1px
@@ -51,7 +51,7 @@
     margin-top: -0.0625rem;//-1px
     background: #FFF;
     border: 0.0625rem solid $color-dark50;//1px
-    border-radius: 0 0 0.125rem 0.125rem;//0 0 2px 2px
+    border-radius: 0 0 0.25rem 0.25rem;//0 0 4px 4px
     box-sizing: border-box;
     color: #1F2041;//????
   }

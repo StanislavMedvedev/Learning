@@ -1,0 +1,14 @@
+.buttons-wrapper
+  span.buttons buttons
+    .button-wrapper
+      +button({title: 'CLICK ME', mods: 'content-size'})
+    .button-wrapper.button-wrapper--moved-right
+      +button({title: 'CLICK ME', mods: 'disable,content-size'})
+    .button-wrapper.button-wrapper--moved
+      +button({title: 'CLICK ME', mods: 'border,content-size'})
+    .button-wrapper.button-wrapper--moved-right
+      +button({title: 'CLICK ME', mods: 'border,disable,content-size'})
+    .button-wrapper.button-wrapper--moved
+      span.button-text CLICK ME
+    .button-wrapper.button-wrapper--moved-right-text
+      span.button-text.button-text--disabled CLICK ME
